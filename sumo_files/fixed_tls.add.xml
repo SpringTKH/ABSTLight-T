@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+    <tlLogic id="257523447" programID="fixed_static" offset="0" type="static">
+        <phase duration="40" state="GGGGrrrr" />
+        <phase duration="5" state="yyyyrrrr" />
+        <phase duration="40" state="rrrrGGGG" />
+        <phase duration="5" state="rrrryyyy" />
+    </tlLogic>
+    <tlLogic id="257523529" programID="fixed_static" offset="0" type="static">
+        <phase duration="42" state="GGGrrr" />
+        <phase duration="3" state="yyyrrr" />
+        <phase duration="42" state="rrrGGG" />
+        <phase duration="3" state="rrryyy" />
+    </tlLogic>
+    <tlLogic id="257523532" programID="fixed_static" offset="0" type="static">
+        <phase duration="41" state="GGGrrrr" />
+        <phase duration="5" state="yyyrrrr" />
+        <phase duration="41" state="rrrGGGG" />
+        <phase duration="5" state="rrryyyy" />
+    </tlLogic>
+    <tlLogic id="257523535" programID="fixed_static" offset="0" type="static">
+        <phase duration="82" state="GGGG" />
+        <phase duration="3" state="yyyy" />
+        <phase duration="10" state="rrrr" />
+    </tlLogic>
+    <tlLogic id="GS_cluster_257523631_29004728" programID="fixed_static" offset="0" type="static">
+        <phase duration="40" state="GGGrrrGGGG" />
+        <phase duration="5" state="yyyrrrGyyy" />
+        <phase duration="40" state="rrrGGGGrrr" />
+        <phase duration="5" state="rrryyyGrrr" />
+    </tlLogic>
+    <tlLogic id="cluster_10936904077_267273541_8829414257" programID="fixed_static" offset="0" type="static">
+        <phase duration="26" state="GGGGrrrrrr" />
+        <phase duration="3" state="yyyyrrrrrr" />
+        <phase duration="27" state="rrrrGGGrrr" />
+        <phase duration="3" state="rrrryyyrrr" />
+        <phase duration="1" state="rrrrrrrrrr" />
+        <phase duration="27" state="rrrrrrrGGG" />
+        <phase duration="3" state="rrrrrrryyy" />
+    </tlLogic>
+    <tlLogic id="cluster_257523451_257523569" programID="fixed_static" offset="0" type="static">
+        <phase duration="42" state="GGGrrrrGG" />
+        <phase duration="3" state="yyyrrrryy" />
+        <phase duration="42" state="rrrGGGGrr" />
+        <phase duration="3" state="rrryyyyrr" />
+    </tlLogic>
+    <tlLogic id="cluster_257523630_29004726" programID="fixed_static" offset="0" type="static">
+        <phase duration="42" state="GGggGGG" />
+        <phase duration="3" state="GGggyyy" />
+        <phase duration="42" state="GGGGrrr" />
+        <phase duration="3" state="GGyyrrr" />
+    </tlLogic>
+</additional>

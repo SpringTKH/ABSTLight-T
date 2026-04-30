@@ -1,0 +1,409 @@
+{
+  "route_file": "sumo_files/osm.acc4.rou.xml",
+  "target_dir": "results/accident/acc4",
+  "seeds_expected": [
+    42,
+    100,
+    1234,
+    2026,
+    8888
+  ],
+  "models": {
+    "ABSTLight_Base": {
+      "runs_by_seed": [
+        {
+          "seed": 42,
+          "file": "results/accident/acc4/test_results_abstlight_20260407_214752.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.607856463504378,
+            "max_queue_length": 17.0,
+            "queue_length_variance": 2.312537431716919,
+            "time_loss": 45.29261769774905,
+            "phase_switch_count": 539.125,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 100,
+          "file": "results/accident/acc4/test_results_abstlight_20260407_215403.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6077171945677857,
+            "max_queue_length": 15.0,
+            "queue_length_variance": 2.0065808296203613,
+            "time_loss": 43.67740139975802,
+            "phase_switch_count": 543.375,
+            "teleportation_by_collisions": 1.0
+          }
+        },
+        {
+          "seed": 1234,
+          "file": "results/accident/acc4/test_results_abstlight_20260407_220004.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.5844247206681145,
+            "max_queue_length": 12.0,
+            "queue_length_variance": 1.6601673364639282,
+            "time_loss": 62.086950563716485,
+            "phase_switch_count": 536.75,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 2026,
+          "file": "results/accident/acc4/test_results_abstlight_20260407_220602.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.5592818141230033,
+            "max_queue_length": 9.0,
+            "queue_length_variance": 1.6365160942077637,
+            "time_loss": 50.06519458966978,
+            "phase_switch_count": 536.375,
+            "teleportation_by_collisions": 1.0
+          }
+        },
+        {
+          "seed": 8888,
+          "file": "results/accident/acc4/test_results_abstlight_20260407_221211.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.5874030734084786,
+            "max_queue_length": 12.0,
+            "queue_length_variance": 1.937896728515625,
+            "time_loss": 65.18410575820008,
+            "phase_switch_count": 532.625,
+            "teleportation_by_collisions": 0.0
+          }
+        }
+      ],
+      "statistical_summary": {
+        "arrived_vehicles": {
+          "mean": 2118.0,
+          "std_dev": 0.0
+        },
+        "avg_delay_per_vehicle": {
+          "mean": 0.589336653254352,
+          "std_dev": 0.01795542724991625
+        },
+        "max_queue_length": {
+          "mean": 13.0,
+          "std_dev": 2.756809750418044
+        },
+        "queue_length_variance": {
+          "mean": 1.9107396841049193,
+          "std_dev": 0.24873662331040616
+        },
+        "time_loss": {
+          "mean": 53.26125400181868,
+          "std_dev": 8.781930366586707
+        },
+        "phase_switch_count": {
+          "mean": 537.65,
+          "std_dev": 3.539420856580918
+        },
+        "teleportation_by_collisions": {
+          "mean": 0.4,
+          "std_dev": 0.4898979485566356
+        }
+      }
+    },
+    "ABSTLight_FT": {
+      "runs_by_seed": [
+        {
+          "seed": 42,
+          "file": "results/accident/acc4/test_results_abstlight_finetuned_20260407_215148.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6190020932421287,
+            "max_queue_length": 13.0,
+            "queue_length_variance": 2.1227777004241943,
+            "time_loss": 62.14155814006059,
+            "phase_switch_count": 535.125,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 100,
+          "file": "results/accident/acc4/test_results_abstlight_finetuned_20260407_215740.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6445246891398477,
+            "max_queue_length": 16.0,
+            "queue_length_variance": 2.4264233112335205,
+            "time_loss": 57.47573473399982,
+            "phase_switch_count": 531.875,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 1234,
+          "file": "results/accident/acc4/test_results_abstlight_finetuned_20260407_220344.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.565936315300876,
+            "max_queue_length": 10.0,
+            "queue_length_variance": 1.5253139734268188,
+            "time_loss": 55.511314199132904,
+            "phase_switch_count": 530.875,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 2026,
+          "file": "results/accident/acc4/test_results_abstlight_finetuned_20260407_220940.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6088385505645622,
+            "max_queue_length": 11.0,
+            "queue_length_variance": 1.7645469903945923,
+            "time_loss": 52.337326355546054,
+            "phase_switch_count": 533.375,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 8888,
+          "file": "results/accident/acc4/test_results_abstlight_finetuned_20260407_221552.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6471346658983195,
+            "max_queue_length": 19.0,
+            "queue_length_variance": 3.1362082958221436,
+            "time_loss": 62.17454740542233,
+            "phase_switch_count": 534.5,
+            "teleportation_by_collisions": 2.0
+          }
+        }
+      ],
+      "statistical_summary": {
+        "arrived_vehicles": {
+          "mean": 2118.0,
+          "std_dev": 0.0
+        },
+        "avg_delay_per_vehicle": {
+          "mean": 0.6170872628291468,
+          "std_dev": 0.029474687636447575
+        },
+        "max_queue_length": {
+          "mean": 13.8,
+          "std_dev": 3.3105890714493698
+        },
+        "queue_length_variance": {
+          "mean": 2.195054054260254,
+          "std_dev": 0.5618567466390595
+        },
+        "time_loss": {
+          "mean": 57.92809616683233,
+          "std_dev": 3.8232913294611617
+        },
+        "phase_switch_count": {
+          "mean": 533.15,
+          "std_dev": 1.5858751527153705
+        },
+        "teleportation_by_collisions": {
+          "mean": 0.4,
+          "std_dev": 0.8
+        }
+      }
+    },
+    "Actuated": {
+      "runs_by_seed": [
+        {
+          "seed": 42,
+          "file": "results/accident/acc4/test_results_sumo_default_20260407_214627.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6441659658198308,
+            "max_queue_length": 44.0,
+            "queue_length_variance": 6.763304233551025,
+            "time_loss": 58.477159173370374,
+            "phase_switch_count": 530.625,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 100,
+          "file": "results/accident/acc4/test_results_sumo_default_20260407_215243.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.6109800333062262,
+            "max_queue_length": 32.0,
+            "queue_length_variance": 5.129944801330566,
+            "time_loss": 56.93456821361923,
+            "phase_switch_count": 539.125,
+            "teleportation_by_collisions": 2.0
+          }
+        },
+        {
+          "seed": 1234,
+          "file": "results/accident/acc4/test_results_sumo_default_20260407_215836.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.5965539625357883,
+            "max_queue_length": 35.0,
+            "queue_length_variance": 4.488596439361572,
+            "time_loss": 59.17143987969528,
+            "phase_switch_count": 534.25,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 2026,
+          "file": "results/accident/acc4/test_results_sumo_default_20260407_220439.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.59269144524587,
+            "max_queue_length": 35.0,
+            "queue_length_variance": 5.135382175445557,
+            "time_loss": 49.25228867827266,
+            "phase_switch_count": 543.5,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 8888,
+          "file": "results/accident/acc4/test_results_sumo_default_20260407_221040.json",
+          "metrics": {
+            "arrived_vehicles": 2118.0,
+            "avg_delay_per_vehicle": 0.599339241240296,
+            "max_queue_length": 42.0,
+            "queue_length_variance": 5.300800800323486,
+            "time_loss": 62.78064872173324,
+            "phase_switch_count": 535.125,
+            "teleportation_by_collisions": 0.0
+          }
+        }
+      ],
+      "statistical_summary": {
+        "arrived_vehicles": {
+          "mean": 2118.0,
+          "std_dev": 0.0
+        },
+        "avg_delay_per_vehicle": {
+          "mean": 0.6087461296296023,
+          "std_dev": 0.018732039395926194
+        },
+        "max_queue_length": {
+          "mean": 37.6,
+          "std_dev": 4.586937976471886
+        },
+        "queue_length_variance": {
+          "mean": 5.363605690002442,
+          "std_dev": 0.753050468319134
+        },
+        "time_loss": {
+          "mean": 57.323220933338156,
+          "std_dev": 4.468154052926789
+        },
+        "phase_switch_count": {
+          "mean": 536.525,
+          "std_dev": 4.412623935936531
+        },
+        "teleportation_by_collisions": {
+          "mean": 0.4,
+          "std_dev": 0.8
+        }
+      }
+    },
+    "Fixed-Time": {
+      "runs_by_seed": [
+        {
+          "seed": 42,
+          "file": "results/accident/acc4/test_results_sumo_fixed_time_20260407_215020.json",
+          "metrics": {
+            "arrived_vehicles": 1312.0,
+            "avg_delay_per_vehicle": 0.8540561433401722,
+            "max_queue_length": 56.0,
+            "queue_length_variance": 16.387815475463867,
+            "time_loss": 399.1610962841458,
+            "phase_switch_count": 167.75,
+            "teleportation_by_collisions": 3.0
+          }
+        },
+        {
+          "seed": 100,
+          "file": "results/accident/acc4/test_results_sumo_fixed_time_20260407_215614.json",
+          "metrics": {
+            "arrived_vehicles": 1383.0,
+            "avg_delay_per_vehicle": 0.8468225335979139,
+            "max_queue_length": 56.0,
+            "queue_length_variance": 18.49277687072754,
+            "time_loss": 404.44581826752847,
+            "phase_switch_count": 167.75,
+            "teleportation_by_collisions": 0.0
+          }
+        },
+        {
+          "seed": 1234,
+          "file": "results/accident/acc4/test_results_sumo_fixed_time_20260407_220221.json",
+          "metrics": {
+            "arrived_vehicles": 1285.0,
+            "avg_delay_per_vehicle": 0.852222890010782,
+            "max_queue_length": 60.0,
+            "queue_length_variance": 16.693111419677734,
+            "time_loss": 415.4572965611866,
+            "phase_switch_count": 167.75,
+            "teleportation_by_collisions": 1.0
+          }
+        },
+        {
+          "seed": 2026,
+          "file": "results/accident/acc4/test_results_sumo_fixed_time_20260407_220814.json",
+          "metrics": {
+            "arrived_vehicles": 1364.0,
+            "avg_delay_per_vehicle": 0.8523232905934439,
+            "max_queue_length": 54.0,
+            "queue_length_variance": 16.933813095092773,
+            "time_loss": 428.32418348933777,
+            "phase_switch_count": 167.75,
+            "teleportation_by_collisions": 1.0
+          }
+        },
+        {
+          "seed": 8888,
+          "file": "results/accident/acc4/test_results_sumo_fixed_time_20260407_221423.json",
+          "metrics": {
+            "arrived_vehicles": 1317.0,
+            "avg_delay_per_vehicle": 0.855680528176424,
+            "max_queue_length": 55.0,
+            "queue_length_variance": 18.041343688964844,
+            "time_loss": 433.37392121254186,
+            "phase_switch_count": 167.75,
+            "teleportation_by_collisions": 0.0
+          }
+        }
+      ],
+      "statistical_summary": {
+        "arrived_vehicles": {
+          "mean": 1332.2,
+          "std_dev": 35.941062866865806
+        },
+        "avg_delay_per_vehicle": {
+          "mean": 0.8522210771437472,
+          "std_dev": 0.00298295131320625
+        },
+        "max_queue_length": {
+          "mean": 56.2,
+          "std_dev": 2.039607805437114
+        },
+        "queue_length_variance": {
+          "mean": 17.309772109985353,
+          "std_dev": 0.8131810207939034
+        },
+        "time_loss": {
+          "mean": 416.15246316294804,
+          "std_dev": 13.198217552226392
+        },
+        "phase_switch_count": {
+          "mean": 167.75,
+          "std_dev": 0.0
+        },
+        "teleportation_by_collisions": {
+          "mean": 1.0,
+          "std_dev": 1.0954451150103321
+        }
+      }
+    }
+  }
+}

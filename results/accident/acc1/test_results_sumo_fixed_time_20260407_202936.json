@@ -1,0 +1,51 @@
+{
+  "model_type": "SUMO_FIXED_TIME",
+  "mode": 3,
+  "seed": 8888,
+  "route_file": "sumo_files/osm.acc1.rou.xml",
+  "stop_reason": "max_steps_reached",
+  "episodes": [
+    {
+      "simulation_seconds": 3600,
+      "decision_steps": 0,
+      "arrived_vehicles": 1335,
+      "safety_fallback_count": 0,
+      "avg_delay_per_vehicle": 0.8540471072563626,
+      "avg_speed_incoming_road": 11.012505306178413,
+      "avg_queue_length": 23.039722222222224,
+      "max_queue_length": 54.0,
+      "queue_length_variance": 18.069658279418945,
+      "avg_waiting_time": 56.68216363096979,
+      "time_loss": 429.51970356880616,
+      "phase_switch_count": 167.75,
+      "avg_stop_time_per_vehicle": 84.51006711409396,
+      "teleportation_by_collisions": 0,
+      "fuel_consumption_total_litre": 606.3013867238471,
+      "intersection_throughput_veh_per_step": 0.37083333333333335,
+      "intersection_throughput_veh_per_hour": 1335.0,
+      "green_wave_effectiveness": 0.3094697004731101,
+      "co2_emissions_total_mg": 1395496304.2342262
+    }
+  ],
+  "aggregate": {
+    "simulation_seconds": 3600,
+    "decision_steps": 0,
+    "arrived_vehicles": 1335,
+    "safety_fallback_count": 0,
+    "avg_delay_per_vehicle": 0.8540471072563626,
+    "avg_speed_incoming_road": 11.012505306178413,
+    "avg_queue_length": 23.039722222222224,
+    "max_queue_length": 54.0,
+    "queue_length_variance": 18.069658279418945,
+    "avg_waiting_time": 56.68216363096979,
+    "time_loss": 429.51970356880616,
+    "phase_switch_count": 167.75,
+    "avg_stop_time_per_vehicle": 84.51006711409396,
+    "teleportation_by_collisions": 0,
+    "fuel_consumption_total_litre": 606.3013867238471,
+    "intersection_throughput_veh_per_step": 0.37083333333333335,
+    "intersection_throughput_veh_per_hour": 1335.0,
+    "green_wave_effectiveness": 0.3094697004731101,
+    "co2_emissions_total_mg": 1395496304.2342262
+  }
+}
