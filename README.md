@@ -6,6 +6,8 @@
 
 ABSTLight-T is a thesis-driven, multi-agent reinforcement learning framework for adaptive traffic signal control under out-of-distribution (OOD) stressors, including rain degradation and lane-blocking accidents. The system is built on a Kuala Lumpur OpenStreetMap (OSM) topology, uses an 82-dimensional spatiotemporal state tensor (80-D stacked traffic state + 2-D context tags), and integrates a graph-masked multi-head attention module (GCN-MHA) for topology-aware coordination across intersections.
 
+> A traffic-signal control system that keeps working when things go wrong — heavy rain, accidents, blocked lanes — by combining graph-based spatial reasoning with temporal traffic patterns. Achieves up to 49% less delay than conventional traffic light systems under real-world conditions.
+
 ## Key Engineering Features
 
 - **Deadlock-prevention reward shaping:** Accident-time penalties are localized to controllable open lanes, explicitly isolating uncontrollable physical blockage effects from policy gradients.
@@ -87,7 +89,7 @@ export SUMO_HOME=/usr/share/sumo
 ### 2) Clone and install dependencies
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/SpringTKH/ABSTLight-T.git>
 cd ABSTLight
 python -m venv .venv
 ```
@@ -185,6 +187,20 @@ If you use ABSTLight-T in your research, please cite:
   howpublished = {GitHub repository}
 }
 ```
+
+## Results Highlight
+
+Evaluated via a 5-seed protocol across normal, peak-hour, rainy (OOD), and 
+accident (OOD) traffic scenarios on a real-world Kuala Lumpur road network.
+
+| Scenario | Metric | ABSTLight-T | Best Baseline (Actuated) | Improvement |
+|---|---|---|---|---|
+| Peak-Hours | Time Loss | 152.89s | 208.31s | ~27% ↓ |
+| Peak-Hours | Max Queue Length | 35.60 veh | 60.20 veh | ~41% ↓ |
+| Accident (OOD, Jalan Petaling) | Time Loss (FT-model) | 73.45s | 105.42s | ~30% ↓ |
+| Accident (OOD) | Vehicles Reaching Destination | 100% (2,118/2,118) | — | Zero deadlocks |
+
+All improvements validated via independent-samples t-tests (p < 0.05) across 5 random seeds.
 
 ## License
 
